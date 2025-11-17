@@ -56,8 +56,9 @@ Actions:
 * `--log`: Print a message.
 * `--dbus`: Send a notification to the system's D-Bus.
 * `--zenity`: Pop-up a dialog window.
-* `--cmd [COMMAND]: Run the passed command for each watched file.
+* `--cmd [COMMAND]`: Run the passed command for each watched file.
     You can use tags, which will be replaced by actual data:
+  
         - {target} (the current watched file),
         - {flick} (the timestamped absolute filename, containing the --directory),
         - {directory} (cf. --directory, where to put timestamped files),
